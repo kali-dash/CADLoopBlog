@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "title": "Introduction to JavaScript",
+      "content": "JavaScript is a versatile programming language used for web development. In this post, we'll cover the basics of JavaScript syntax, variables, and functions.",
+      "author": "John Doe",
+      "date": "2025-01-02",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "posts/post1.html",
+      "categories": ["JavaScript", "Programming"],
+      "tags": ["JavaScript Basics", "Variables", "Functions"]
+    },
+    {
+      "title": "Advanced CSS Techniques",
+      "content": "CSS is essential for styling web pages. Here, we'll explore advanced CSS techniques such as Flexbox, Grid, and animations to create dynamic layouts.",
+      "author": "Jane Smith",
+      "date": "2025-01-03",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "advanced-css",
+      "categories": ["CSS", "Web Design"],
+      "tags": ["Flexbox", "Grid", "Animations"]
+    },
+    {
+      "title": "Mastering Python Lists",
+      "content": "Python lists are powerful data structures. This tutorial will teach you how to manipulate lists, including adding, removing, and sorting elements.",
+      "author": "Alice Johnson",
+      "date": "2025-01-04",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "mastering-python-lists",
+      "categories": ["Python", "Data Structures"],
+      "tags": ["Python Basics", "Lists", "Sorting"]
+    },
+    {
+      "title": "Understanding HTML Forms",
+      "content": "Forms are an essential part of web development. Learn how to create and handle forms in HTML, from input fields to submit buttons.",
+      "author": "Tom Brown",
+      "date": "2025-01-05",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "html-forms",
+      "categories": ["HTML", "Web Development"],
+      "tags": ["Forms", "Input Fields", "Submit Buttons"]
+    },
+    {
+      "title": "Creating a To-Do List with React",
+      "content": "React is a popular JavaScript library for building user interfaces. In this post, we will create a simple to-do list app using React components.",
+      "author": "Emily Davis",
+      "date": "2025-01-06",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "react-todo-list",
+      "categories": ["React", "JavaScript"],
+      "tags": ["React Basics", "Components", "To-Do App"]
+    },
+    {
+      "title": "Intro to Node.js",
+      "content": "Node.js allows you to run JavaScript server-side. This post will cover the fundamentals of Node.js and how to set up a basic web server.",
+      "author": "Michael Harris",
+      "date": "2025-01-07",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "intro-to-nodejs",
+      "categories": ["Node.js", "Backend Development"],
+      "tags": ["Node.js Basics", "Web Server", "JavaScript"]
+    },
+    {
+      "title": "Exploring Git and GitHub",
+      "content": "Version control is essential for software development. In this post, we will learn how to use Git and GitHub for version control and collaboration.",
+      "author": "Sarah Wilson",
+      "date": "2025-01-08",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "git-and-github",
+      "categories": ["Version Control", "GitHub"],
+      "tags": ["Git Basics", "Collaboration", "Repositories"]
+    },
+    {
+      "title": "CSS Grid Layout: A Deep Dive",
+      "content": "CSS Grid is a powerful layout system. This post explains the fundamentals of CSS Grid and how to use it to create responsive layouts.",
+      "author": "David Lee",
+      "date": "2025-01-09",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "css-grid-layout",
+      "categories": ["CSS", "Web Design"],
+      "tags": ["CSS Grid", "Responsive Design", "Layouts"]
+    },
+    {
+      "title": "Building REST APIs with Express.js",
+      "content": "Express.js is a fast and minimal web framework for Node.js. In this tutorial, we'll learn how to build a simple REST API with Express.",
+      "author": "Laura Martinez",
+      "date": "2025-01-10",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "express-rest-api",
+      "categories": ["Node.js", "Backend Development"],
+      "tags": ["Express.js", "REST API", "Web Development"]
+    },
+    {
+      "title": "Using Local Storage in JavaScript",
+      "content": "Local Storage allows you to store data in a user's browser. Learn how to use Local Storage to store and retrieve user data in your web applications.",
+      "author": "John Doe",
+      "date": "2025-01-11",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "local-storage-javascript",
+      "categories": ["JavaScript", "Web Development"],
+      "tags": ["Local Storage", "Web Apps", "Data Storage"]
+    },
+    {
+      "title": "Introduction to Web Accessibility",
+      "content": "Web accessibility ensures that websites are usable by all people, including those with disabilities. This post provides an overview of web accessibility principles.",
+      "author": "Alice Johnson",
+      "date": "2025-01-12",
+      "image": "images/cadlooplogofooter.webp",
+      "url": "web-accessibility",
+      "categories": ["Web Design", "Accessibility"],
+      "tags": ["Accessibility Basics", "Inclusive Design", "Web Standards"]
+    }
+  ]
+}

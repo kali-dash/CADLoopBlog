@@ -1,0 +1,250 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root variables for colors */
+:root {
+    --background-color: #2e2e2e;
+    --text-color: #f0f0f0;
+    --primary-color: #4CAF50;
+    --secondary-color: #333;
+    --highlight-color: #ccff33;
+    --highlight-text-color: black;
+}
+
+/* Body */
+body {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header */
+header {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Digitalt'; 
+    src: url('fonts/Digitalt.ttf') format('truetype');  
+    font-weight: normal;
+    font-style: normal;
+}
+
+header h1 {
+    font-family: 'Digitalt', sans-serif;
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+header nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+#posts-list {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Adjust layout on smaller screens */
+}
+
+.post-content {
+    width: 100%;
+    max-width: 70%; /* Takes up 70% of the post container */
+}
+
+.post-body {
+    margin-bottom: 10px;
+}
+
+.post h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.code-block {
+    background-color: #111;
+    padding: 15px;
+    font-size: 1rem;
+    color: var(--text-color);
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.post-image {
+    width: 100%;
+    max-width: 20%;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.post h2 a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+/* Highlighted text */
+.highlight {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: var(--highlight-text-color);
+}
+
+/* Search bar */
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+}
+
+/* Pagination */
+.post-navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer logo */
+.footerlogo {
+    top: 0;
+    right: 0;
+    border: 0;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+/* Loader */
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    display: none; /* Hidden by default */
+}
+
+/* for sidebar */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: #4CAF50;
+}
+
+#posts-container {
+    width: 75%;
+}
