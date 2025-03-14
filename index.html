@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programmatic Blog</title>
+    <title>CADLoop Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Programmatic Blog</h1>
+        <h1>CADLoop Blog</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <div class="search-bar" style="margin-top: 10px;">
+            <input type="text" id="search-input" placeholder="Search using Keywords..." />
+            <button id="search-button">Search</button>
+        </div>
     </header>
 
     <main>
@@ -29,13 +33,7 @@
 
             <!-- Main Content -->
             <section id="posts-container">
-                <div class="search-bar">
-                    <input type="text" id="search-input" placeholder="Search for posts..." />
-                    <button id="search-button">Search</button>
-                </div>
-
                 <div id="posts-list"></div>
-
                 <div class="post-navigation">
                     <button id="prev" class="nav-button">Previous</button>
                     <button id="next" class="nav-button">Next</button>
@@ -46,7 +44,7 @@
 
     <footer>
         <a href="index.html"><img class="footerlogo" src="/images/cadlooplogofooter.webp" alt="Footer Logo"></a>
-        <p>&copy; 2025 Programmatic Blog</p>
+        <p>&copy; 2025 CADLoop Blog</p>
     </footer>
 
     <script src="script.js"></script>
